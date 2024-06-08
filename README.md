@@ -1,4 +1,7 @@
-# recipe-app-ap
+# Base Model for all Apis
+## this snippet configures :
+## Docker, Docker Compose, PostgreSql, Admin, Test, Models
+
 docker login  -u shabazknowde
 docker-compose run --rm app sh -c "python manage.py test"
 
